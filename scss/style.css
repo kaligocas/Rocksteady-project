@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 @import url("../pages/History/scss/history.scss");
+@import url("../scss/footer.scss");
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11978,5 +11979,5 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-color: aqua;
+  background-image: url("../assets/Background/fondo_rocksteady.jpg");
 }/*# sourceMappingURL=style.css.map */

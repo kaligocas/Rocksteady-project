@@ -1,5 +1,7 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
 body{
-    background-image: url("./../assets/Background/fondo_rocksteady.jpg");
+    background-image: url("../assets/Background/fondo_rocksteady.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
     background-attachment: fixed;

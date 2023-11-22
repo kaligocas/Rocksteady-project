@@ -11990,13 +11990,11 @@ body {
           text-decoration: solid;
   text-shadow: 1px 1px 1px black;
 }
-
 .menu-items a {
   font-family: "Recursive", sans-serif;
   color: black;
   font-size: 20px;
 }
-
 .menu-items a:hover {
   background-color: rgba(15, 14, 14, 0.4901960784);
   color: aliceblue;

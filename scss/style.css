@@ -4,7 +4,6 @@
  * Copyright 2011-2023 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("../pages/History/scss/history.scss");
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11978,7 +11977,7 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-image: url("../assets/Background/fondo_textura_1.jpg");
+  background-image: url("../assets/Background/fondo_rocksteady.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -12004,12 +12003,6 @@ body {
   background-color: rgba(15, 14, 14, 0.4901960784);
   color: aliceblue;
   transition: 0.4s;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 .footer {

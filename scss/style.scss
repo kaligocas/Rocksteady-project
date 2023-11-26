@@ -6,7 +6,7 @@
 @import "../pages/Shop/scss/shop.scss";
 
 
-//Header y fondo//
+
 body{
     background-image: url("../assets/Background/fondo_rocksteady.jpg");
     background-repeat: no-repeat;
@@ -38,7 +38,10 @@ body{
         
     }
 }
- 
+
+.info{
+    font-family: 'Anonymous Pro', monospace;
+}
 
 
 
@@ -53,8 +56,6 @@ body{
 
 
 
-
-//footer//
 
 .footer {
     width: 100%;

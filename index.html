@@ -6,6 +6,10 @@
     <link rel="stylesheet" href="./scss/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&family=Montserrat&family=Poppins:wght@300&family=Recursive&family=Roboto+Condensed:wght@100&family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Macondo+Swash+Caps&family=Montserrat&family=Poppins:wght@300&family=Recursive&family=Roboto+Condensed:wght@100&family=Shadows+Into+Light&display=swap" rel="stylesheet">  
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <title>Rocksteady</title>
 </head>
 <body>
@@ -41,9 +45,65 @@
             
         </nav>
     </header>
-
     
+    
+    <section class="carrusel">
+        <div id="information" class="carousel slide" data-bs-ride="carousel">
 
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#information" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#information" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#information" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#information" data-bs-slide-to="3" aria-label="Slide 4"></button> 
+            </div>
+
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                <img src="./assets/Home/img1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block info">
+                  <p>El rocksteady es clave para comprender el desarrollo de la música jamaiquina. Con compases lentos y rítmicos, redujo la intensidad del ska y dio paso al surgimiento del reggae. Fue popular en la isla caribeña sobre todo en la segunda mitad de los 60, habitando los salones de baile y ganando prestigio internacional.</p>
+                    <h1 class="display-5">Esperamos que disfrutes de este recorrido!</h1>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="./assets/Home/img0.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Etiqueta de la segunda diapositiva</h5>
+                  <p>Algún contenido placeholder representativo para la segunda diapositiva.</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="./assets/Home/img2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Etiqueta de la tercera diapositiva</h5>
+                  <p>Algún contenido placeholder representativo para la tercera diapositiva.</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="./assets/Home/img3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Etiqueta de la tercera diapositiva</h5>
+                  <p>Algún contenido placeholder representativo para la tercera diapositiva.</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#information" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#information" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+
+    </section>
 
 
 

@@ -12081,6 +12081,15 @@ body {
   transition: 0.4s;
 }
 
+.info {
+  font-family: "Anonymous Pro", monospace;
+  font-size: 20px;
+}
+
+.carousel-caption {
+  background-color: rgba(21, 22, 22, 0.388);
+}
+
 .footer {
   width: 100%;
   background-color: rgba(15, 14, 14, 0.1529411765);

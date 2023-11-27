@@ -1,0 +1,84 @@
+@import "./../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.container {  
+  background-color: rgb(0, 0, 0);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 17px 21px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "carebears carebears carebears carebears carebears bear-1 bear-1 bear-1 bear-1"
+    "carebears carebears carebears carebears carebears bear-1 bear-1 bear-1 bear-1"
+    "bear-2 bear-2 bear-3 bear-3 bear-4 bear-4 bear-4 bear-5 bear-5"
+    "bear-2 bear-2 bear-3 bear-3 bear-4 bear-4 bear-4 bear-5 bear-5"
+    "bear-7 bear-7 bear-7 bear-7 bear-4 bear-4 bear-4 bear-6 bear-6"
+    "bear-7 bear-7 bear-7 bear-7 bear-4 bear-4 bear-4 bear-6 bear-6"
+    "bear-8 bear-8 bear-9 bear-9 bear-10 bear-10 bear-10 bear-10 bear-10"
+    "bear-8 bear-8 bear-9 bear-9 bear-10 bear-10 bear-10 bear-10 bear-10";
+}
+
+.bear{
+  background-color: #eee;
+  background-size: cover;
+}
+.bear img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.carebears { 
+  grid-area: carebears;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  padding: 10px;  
+
+ 
+
+}
+.carebears h1{
+  margin-top: 20%; 
+}
+
+.bear-1 { 
+  grid-area: bear-1; 
+}
+
+.bear-2 { 
+  grid-area: bear-2; 
+}
+
+.bear-3 { 
+  grid-area: bear-3; 
+}
+
+.bear-4 { 
+  grid-area: bear-4; 
+}
+
+.bear-5 { 
+  grid-area: bear-5; 
+}
+
+.bear-6 { 
+  grid-area: bear-6; 
+}
+
+.bear-7 { 
+  grid-area: bear-7; 
+}
+
+.bear-8 { 
+  grid-area: bear-8; 
+}
+
+.bear-9 { 
+  grid-area: bear-9; 
+}
+
+.bear-10 { 
+  grid-area: bear-10; 
+}
+

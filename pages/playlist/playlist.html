@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=|, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/playlist.scss">
     <link rel="stylesheet" href="./scss/playlist.css">
-    <link rel="stylesheet" href="./scss/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&family=Montserrat&family=Poppins:wght@300&family=Recursive&family=Roboto+Condensed:wght@100&family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="ruta/a/bootstrap.min.css">
@@ -12,7 +12,7 @@
     <title>Rocksteady</title>
 </head>
 <body>
-    *//<header>
+    <header>
         <nav class="navbar">
             
             <div class="container-fluid justify-content-center">
@@ -43,18 +43,21 @@
             </div>
             
         </nav>
-    </header>//*
+    </header>
 
 
 
 
 
     <main>
-        <h2>Enjoy our selection</h2>
+        <h2 class="mb-4">Enjoy our selection</h2>
         <div class="table-responsive">
             <table class="table table-striped">
             <thead>
-              <tr id="playlist_title">
+              <tr id="playlist">
+                <audio controls id="audioPlayer" class="mt-3">
+                  Tu navegador no soporta el elemento de audio.
+                </audio>
                 <th></th>
                 <th>Canción</th>
                 <th>Artista</th>
@@ -64,48 +67,48 @@
             </thead>
 
             <tbody>
-              <tr class="grey_line">
-                <td><audio src="./../../assets/audio_playlist/Delroy Wilson Dancing Mood.mp3"></audio></td>
+              <tr>
+              <td><img src="./../../assets/Discos/Delroy-Wilson_Dancing Mood.jpg"></td>
                 <td>Dancing Mood</td>
                 <td>Delroy Wilson</td>
                 <td>Reggae Resurrection</td>
                 <td>2:43</td>
               </tr>
 
-              <tr class="red_line">
-                <td><audio src=""></audio></td>
-                <td>Girl I´ve got a Date</td>
+              <tr>
+                <td><img src="./../../assets/Discos/Alton-Ellys_The-Flames.jpg"></td>
+                <td>Girl I ve got a Date</td>
                 <td>Alton Ellis  & The Flames</td>
                 <td>Be True to Yourself</td>
                 <td>2:29</td>
               </tr>
 
-              <tr class="grey_line">
-                <td><audio src=""></audio></td>
+              <tr>
+                <td><img src="./../../assets/Discos/Phyllis_Dyllan.jpeg"></td>
                 <td>Perfidia</td>
                 <td>Phyllis Dylan</td>
                 <td>Women in Reggae</td>
                 <td>2:49</td>
               </tr>
 
-              <tr class="red_line">
-                <td><audio src=""></audio></td>
+              <tr>
+                <td><img src="./../../assets/Discos/Tommy_McCook.webp"></td>
                 <td>Inez</td>
                 <td>Tommy McCook</td>
                 <td>Rocksteady Beat</td>
                 <td>3:48</td>
               </tr>
 
-              <tr class="grey_line">
-                <td><audio src=""></audio></td>
+              <tr>
+                <td><img src="./../../assets/Discos/The paragons.jpg"></td>
                 <td>The Tide is High</td>
                 <td>The Paragons</td>
                 <td>On the Beach with the Paragons</td>
                 <td>2:42</td>
               </tr>
 
-              <tr class="red_line">
-                <td><audio src=""></audio></td>
+              <tr>
+                <td><img src="./../../assets/Discos/Alton Ellis .jpeg"></td>
                 <td>Rock Steady</td>
                 <td>Alton Ellis</td>
                 <td>Duke Reid Golden Hits</td>

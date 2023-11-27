@@ -1,4 +1,23 @@
 
-@import "./../../../node_modules/bootstrap/scss/bootstrap.scss";
+img{
+    size: 5%;
+}
+#playlist, audio{
+    background:#666;
+    width:400px;
+    padding:20px;
+    list-style: none;
+  }
 
+  a {
+    text-decoration:none;
+  }
+  .active a {
+    color:#5DB0E6;
+    text-decoration:none;
+  }
+ 
 
+  li a:hover{
+    text-decoration:none;
+  }

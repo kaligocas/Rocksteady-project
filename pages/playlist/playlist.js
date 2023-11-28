@@ -2,11 +2,11 @@ document.addEventListener('DOMContentLoaded', function () {
     const playlistElement = document.getElementById('playlist');
     const audioPlayer = document.getElementById('audioPlayer');
   
-    const playlist = [
+    /*const playlist = [
       { title: 'Canción 1', src: './assets/Alton Ellis Girl I ve Got A Date-.mp3' },
       { title: 'Canción 2', src: './assets/Alton Ellis Rocksteady.mp3' },
 
-    ];
+    ];*/
   
     playlist.forEach((song, index) => {
       const listItem = document.createElement('li');

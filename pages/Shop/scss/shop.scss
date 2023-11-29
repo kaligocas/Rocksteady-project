@@ -38,6 +38,9 @@ img{
     
 }
 
+.row-product .cart-total{
+    background-color: #fff;
+}
 
 .container-cart-products{
     position: absolute;
@@ -99,6 +102,7 @@ img{
     align-items: center;
     padding: 20px 0;
     gap: 20px;
+    background-color: white;
 }
 
 .cart-total h3{
@@ -109,6 +113,7 @@ img{
 .total-pagar{
     font-size: 20px;
     font-weight: 900;
+    
 }
 
 .hidden-cart{
@@ -179,6 +184,7 @@ img{
 .cart-empty{
     padding: 20px;
     text-align: center;
+    background-color: white;
 }
 
 

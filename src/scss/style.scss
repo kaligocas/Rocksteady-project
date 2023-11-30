@@ -1,14 +1,15 @@
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
-@import "../pages/Eventos/scss/eventos.scss";
-@import "../pages/Gallery/scss/gallery.scss";
-@import "../pages/History/scss/history.scss";
-@import "../pages/playlist/scss/playlist.scss";
-@import "../pages/Shop/scss/shop.scss";
+@import "./../../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "./eventos.scss";
+@import "./gallery.scss";
+@import "./history.scss";
+@import "./playlist.scss";
+@import "./shop.scss";
 
 
 
 body{
-    background-image: url("../assets/Background/fondo_rocksteady.jpg");
+    background-image: url("./../../public/assets/Background/fondo_rocksteady.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
     background-attachment: fixed;

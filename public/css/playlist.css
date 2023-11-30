@@ -12,8 +12,7 @@ body {
 
 .menu-items {
   margin: 10px;
-  -webkit-text-decoration: solid;
-          text-decoration: solid;
+  text-decoration: solid;
   text-shadow: 1px 1px 1px black;
 }
 .menu-items a {
@@ -72,4 +71,6 @@ body {
 .links a {
   color: black;
   display: inline-block;
-}/*# sourceMappingURL=playlist.css.map */
+}
+
+/*# sourceMappingURL=playlist.css.map */

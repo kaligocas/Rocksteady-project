@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=|, initial-scale=1.0">
-    <link rel="stylesheet" href="./scss/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./../../css/playlist.css">
     <link href="https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&family=Montserrat&family=Poppins:wght@300&family=Recursive&family=Roboto+Condensed:wght@100&family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,84 +11,79 @@
     <title>Rocksteady</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            
-            <div class="container-fluid justify-content-center">
-                <a class="navbar-brand" href="#">
-                    <img src="./assets/Logo/Steady 02.png"  alt="Rocksteady-logo" width="100" height="100">
-                </a>
-                <ul class="nav">
-                    <li class="nav-item menu-items">
-                      <a class="nav-link"  href="#">HOME</a>
-                    </li>
-                    <li class="nav-item menu-items">
-                      <a class="nav-link" href="#">HISTORIA</a>
-                    </li>
-                    <li class="nav-item menu-items">
-                      <a class="nav-link" href="#">GALERIA</a>
-                    </li>
-                    <li class="nav-item menu-items">
-                      <a class="nav-link" href="#">PLAYLIST</a>
-                    </li>
-                    <li class="nav-item menu-items">
-                        <a class="nav-link" href="#">EVENTOS</a>
-                      </li>
-                      <li class="nav-item menu-items">
-                        <a class="nav-link" href="#">SHOP</a>
-                      </li>
-                      
-                  </ul>
-            </div>
-            
-        </nav>
-    </header>
+    <main>
+        <h2 class="mb-4"><strong>Enjoy our selection</strong></h2>
+        <audio controls id="audioPlayer" class="mt-3 justify-content-end">
+          Tu navegador no soporta el elemento de audio.
+        </audio>
+        <div class="table-responsive">
+          <table class="table table-striped opacity-75 shadow p-3 mb-5 rounded">
+            <thead>
+              
+              <tr id="playlist">
+                
+               
+                <th class="bg-transparent"></th>
+                <th class="bg-transparent">Canción</th>
+                <th class="bg-transparent">Artista</th>
+                <th class="bg-transparent">Album</th>
+                <th class="bg-transparent">Duración</th>
+              </tr>
+            </thead>
 
-    
+            <tbody>
+              <tr class="hover">
+              <td><img src="./../../assets/Discos/Delroy-Wilson_Dancing Mood.jpg" class="img-fluid"></td>
+                <td>Dancing Mood</td>
+                <td>Delroy Wilson</td>
+                <td>Reggae Resurrection</td>
+                <td>2:43</td>
+              </tr>
 
+              <tr class="table-danger">
+                <td><img src="./../../assets/Discos/Alton-Ellys_The-Flames.jpg"></td>
+                <td>Girl I ve got a Date</td>
+                <td>Alton Ellis  & The Flames</td>
+                <td>Be True to Yourself</td>
+                <td>2:29</td>
+              </tr>
 
+              <tr>
+                <td><img src="./../../assets/Discos/Phyllis_Dyllan.jpeg"></td>
+                <td>Perfidia</td>
+                <td>Phyllis Dylan</td>
+                <td>Women in Reggae</td>
+                <td>2:49</td>
+              </tr>
 
+              <tr class="table-danger">
+                <td><img src="./../../assets/Discos/Tommy_McCook.webp"></td>
+                <td>Inez</td>
+                <td>Tommy McCook</td>
+                <td>Rocksteady Beat</td>
+                <td>3:48</td>
+              </tr>
 
+              <tr>
+                <td><img src="./../../assets/Discos/The paragons.jpg"></td>
+                <td>The Tide is High</td>
+                <td>The Paragons</td>
+                <td>On the Beach with the Paragons</td>
+                <td>2:42</td>
+              </tr>
 
+              <tr class="table-danger">
+                <td><img src="./../../assets/Discos/Alton Ellis .jpeg"></td>
+                <td>Rock Steady</td>
+                <td>Alton Ellis</td>
+                <td>Duke Reid Golden Hits</td>
+                <td>2:38</td>
+              </tr>
+            </tbody>
+            </table>
+        </div>
 
+    </main>
 
-
-
-
-
-
-
-
-
-    <footer class="footer">
-            <div class="box">
-                <p>©2023 Rocksteady Music Spain</p>
-            </div>
-
-            <div class="box box2">
-                <div class="box_contact">
-                    <p class="text">CONTACTO</p>
-                    <img src="assets/Iconos/mail_icon.png" class="icon_mail">
-                </div>
-
-                <div class="links">
-                    <a href="#">Aviso de Privacidad</a>
-                    <a href="#">Política de Cookies</a>
-                    <a href="#">Términos y condiciones</a>
-                    <a href="#">Safeguarding Policy</a>
-                </div>
-            </div>    
-
-            <div class="box">
-                <div class="red_social">
-                    <p class="text">SÍGUENOS</p>
-                    <a href="#" class="instagram"><img src="assets/Iconos/instagram_icon.png"class="icon"></a>
-                    <a href="#" class="facebook"><img src="assets/Iconos/facebook_icon.png" class="icon"></a>
-                    <a href="#" class="twitter"><img src="assets/Iconos/TWITTER_icon.png" class="icon"></a>
-                </div>
-
-            </div>
-        
-    </footer>
 </body>
 </html>

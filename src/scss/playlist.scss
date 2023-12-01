@@ -1,20 +1,2 @@
-@import "./../../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./../../node_modules/bootstrap/scss/bootstrap.scss"
 
-main {
-  font-family: 'Anonymous Pro', monospace;
-  padding: 10%;
-}
-
-h2{
-  font-weight: bold;
-  
-}
-
-
-img{
-  width: 35px;
-}
-#audioPlayer{
-  position: relative;
-  margin-left: 20%;
-}

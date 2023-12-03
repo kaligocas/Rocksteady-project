@@ -13,9 +13,7 @@
 <body>
     <header>
       <nav class="navbar navbar1 navbar-expand-lg justify-content-center">
-        <div class="container-fluid align-content-center m-3
-        
-        ">
+        <div class="container-fluid align-content-center m-3">
           <img src="./public/assets/Logo/Steady 02.png" alt="Logo_Rocsteady" width="100">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -46,25 +44,65 @@
       </nav>
     </header>
     
-    
-    
-    
-    
-    
-    
+    <section class="carrusel">
+      <div id="information" class="carousel slide" data-bs-ride="carousel">
 
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#information" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#information" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#information" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#information" data-bs-slide-to="3" aria-label="Slide 4"></button> 
+          </div>
 
+          <div class="carousel-inner">
 
+            <div class="carousel-item active">
+              <img src="./public/assets/Banner/letrasrocksteady.png" class="d-block w-100" alt="grafitti-rocksteady">
+              <div class="carousel-caption d-none d-md-block info">
+                <p>El rocksteady es clave para comprender el desarrollo de la música jamaiquina. Con compases lentos y rítmicos, redujo la intensidad del ska y dio paso al surgimiento del reggae. Fue popular en la isla caribeña sobre todo en la segunda mitad de los 60, habitando los salones de baile y ganando prestigio internacional.</p>
+                  <h1 class="display-5">Esperamos que disfrutes de este recorrido!</h1>
+              </div>
+            </div>
 
+            <div class="carousel-item">
+              <img src="./public/assets/Banner/dennis-brown.png" class="d-block w-100" alt="dennis-brown">
+              <div class="carousel-caption d-none d-md-block info">
+                <h1 class="display-1">Dennis Brown</h1>
+                <p>El príncipe heredero del reggae.<br/><i>(1 de febrero de 1957 Kingston, 1 de julio 1999)</i></p>
+                
+              </div>
+            </div>
 
+            <div class="carousel-item">
+              <img src="./public/assets/Banner/Parrty-jamaica.png" class="d-block w-100" alt="party-jamaica">
+              <div class="carousel-caption d-none d-md-block info">
+                <h1 class="display-1">Fiesta Jamaiquina Rocksteady</h1>
+                <p><i>Jamaica, 1970</i></p>
+              </div>
+            </div>
 
+            <div class="carousel-item">
+              <img src="./public/assets/Banner/gregory-isaacs.png" class="d-block w-100" alt="gregory_isaacs">
+              <div class="carousel-caption d-none d-md-block info">
+                <h1 class="display-1">Greogory Isaccs</h1>
+                <p>Cantante y escritor de reggae jamaicano<i>"El artista más exquisito del reggae"<br> (Fletchers Land, Kingston, Jamaica, 15 de julio de 1951, Londres 25 de octubre de 2010).</i></p>
+              </div>
+            </div>
 
+          </div>
+          
+          <button class="carousel-control-prev" type="button" data-bs-target="#information" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#information" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
 
-
-
-
-
-  <footer class="text-dark pt-4 pb-4">
+  </section>
+  <footer class="text-dark pt-4">
     <nav class="navbar navbar2 navbar-expand-lg">
       <div class="container-fluid justify-content-center">
         <h5 class="m-5">&#169;​ 2023 Rocksteady Music, Spain</h5>
@@ -100,13 +138,6 @@
         </div>
       </div>
     </nav>
-
-
-
-
-
-
-    
   </footer>
     <script src="./node_modules/@popperjs/core/dist/umd/popper-base.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

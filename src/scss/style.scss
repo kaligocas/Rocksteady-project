@@ -1,10 +1,5 @@
 @import "./../../node_modules/bootstrap/scss/bootstrap.scss";
 
-@import "./eventos.scss";
-@import "./gallery.scss";
-@import "./history.scss";
-@import "./playlist.scss";
-@import "./shop.scss";
 
 
 
@@ -28,39 +23,16 @@ body{
     text-shadow: 1px 1px 1px black;
 
     a{
-        font-family: 'Recursive', sans-serif;
-        color: black;
-        font-size: 20px;
-       
+        text-decoration: none;
+        color:black ;
     }
     a:hover{
-        background-color: #0f0e0e7d;
-        color:aliceblue;
-        transition: 0.4s;
-        
+        color: rgb(93, 97, 93);
+        font-weight: bold;
     }
 }
-
-.info{
-    font-family: 'Anonymous Pro', monospace;
-    font-size: 20px;
+.list2{
+    float: left;
+    margin: 5%;
 }
-
-.carousel-caption {
-    background-color: rgba(21, 22, 22, 0.388);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -1,10 +1,5 @@
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./../../node_modules/bootstrap/scss/bootstrap.scss";
 
-@import "./eventos.scss";
-@import "./gallery.scss";
-@import "./history.scss";
-@import "./playlist.scss";
-@import "./shop.scss";
 
 
 
@@ -38,8 +33,31 @@ body{
     box-sizing: border-box;
 }
 
-footer {
-    
+footer{
+    background-color: rgba(255, 255, 255, 0.395);
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
+   
+    h5{
+        font-weight: 700;
+    }
+} 
 
+
+ul > li{
+    list-style: none;
+    
+
+    a{
+        text-decoration: none;
+        color:black ;
+    }
+    a:hover{
+        color: rgb(93, 97, 93);
+        font-weight: bold;
+    }
 }
+.list2{
+    float: left;
+    margin: 5%;
+}
+

@@ -1,1 +1,27 @@
-@import "./../../node_modules/bootstrap/scss/bootstrap.scss"
+@import "./../../node_modules/bootstrap/scss/bootstrap.scss";
+
+#galery{
+
+    
+
+    h1{
+        font-family: 'Anonymous Pro', monospace;
+        font-weight: bold;
+       
+    }
+
+    p{
+        font-family: 'Anonymous Pro', monospace;
+        font-size: 25px;
+        
+    }
+
+    .images_galery:hover{
+        opacity: 0.8;
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    
+    
+}
+

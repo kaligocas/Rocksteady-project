@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="../../css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&family=Montserrat&family=Poppins:wght@300&family=Recursive&family=Roboto+Condensed:wght@100&family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Macondo+Swash+Caps&family=Montserrat&family=Poppins:wght@300&family=Recursive&family=Roboto+Condensed:wght@100&family=Shadows+Into+Light&display=swap" rel="stylesheet">  
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Macondo+Swash+Caps&family=Montserrat&family=Poppins:wght@300&family=Recursive&family=Roboto+Condensed:wght@100&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+   
     <title>Rocksteady</title>
 </head>
 <body>
@@ -45,41 +46,125 @@
         </nav>
       </header>
   
-    <div class="container">
-        <div class="carebears">
-          <h1 class="display-1">Rocksteady</h1>
+      <section id="galery" class="container">
+        <div class="text-center pt-5">
+            <h1 class="display-1 text-decoration-underline">GALERIA</h1>
+            
+            <p>Conoce al genero Rocsteady a traves de la galeria de imagenes, haz click en cada una de ellas para vel la información.</p>
         </div>
-        <div class="bear bear-1">
-            <img src="./../../assets/Discos/Desmond_Deker.jpg" alt="">
+
+        <div class="row m-5">
+            <div class="col-lg-4 mb-4">
+                <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage1">
+                  <img class="w-100 mb-4 rounded images_galery" src="./../../assets/Banner/logo.jpeg" alt="">
+                </a>
+                
+                <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage2">
+                  <img class="w-100 mb-4 rounded images_galery" src="./../../assets/Gallery/jamaica-memories.jpeg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage3">
+                  <img class="w-100 mb-4 rounded images_galery" src="./../../assets/Banner/rocksteady2.jpeg" alt="">
+                </a>
+                <a  href="#!" data-bs-toggle="modal" data-bs-target="#modalImage4">
+                  <img class="w-100 mb-4 rounded images_galery" src="./../../assets/Gallery/img-6.png" alt="">
+                </a>
+                
+            </div>
+            <div class="col-lg-4 mb-4">
+                <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage5">
+                  <img class="w-100 mb-4 rounded images_galery" src="./../../assets/Banner/Rockteady_leon.jpeg" alt="">
+                </a>
+                <a  href="#!" data-bs-toggle="modal" data-bs-target="#modalImage6">
+                  <img class="w-100 mb-4 rounded images_galery" src="./../../assets/Gallery/Rocksteady_Fashion.jpeg" alt="">
+                </a>
+            </div>
         </div>
-        <div class="bear bear-2">
+
+        <div tabindex="-1" aria-labelledby="modalImage1" aria-hidden="true"
+                class="modal fade" id="modalImage1">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="btn-close p-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                    <img src="./../../assets/Banner/logo.jpeg" alt="">
+                    <p class="text-center p-3 fst-italic fw-bold text-dark">Rocksteady Music</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalImage2" aria-hidden="true"
+                class="modal fade" id="modalImage2">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="btn-close p-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                    <img src="./../../assets/Gallery/jamaica-memories.jpeg" alt="">
+                    <p class="text-center p-3 fst-italic fw-bold text-dark">Jamaica Memories</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalImage3" aria-hidden="true"
+                class="modal fade" id="modalImage3">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="btn-close p-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                    <img src="./../../assets/Banner/rocksteady2.jpeg" alt="">
+                    <p class="text-center p-3 fst-italic fw-bold text-dark">Group Rocksteady</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalImage4" aria-hidden="true"
+                class="modal fade" id="modalImage4">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="btn-close p-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                    <img src="./../../assets/Gallery/img-6.png" alt="">
+                    <p class="text-center p-3 fst-italic fw-bold text-dark">Dancing Rocksteady</p>
+                </div>
+            </div>
+
+        </div>
+        <div tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true"
+                class="modal fade" id="modalImage5">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="btn-close p-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                    <img src="./../../assets/Banner/Rockteady_leon.jpeg" alt="">
+                    <p class="text-center p-3 fst-italic fw-bold text-dark">León Jamaica</p>
+                </div>
+            </div>
+
+        </div>
+        <div tabindex="-1" aria-labelledby="modalImage" aria-hidden="true"
+        class="modal fade" id="modalImage6">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close p-3" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
             <img src="./../../assets/Gallery/Rocksteady_Fashion.jpeg" alt="">
+            <p class="text-center p-3 fst-italic fw-bold text-dark">Fashion Jamaica</p>
         </div>
-        <div class="bear bear-3">
-            <img src="./../../assets/Gallery/img-4.png" alt="">
-        </div>
-        <div class="bear bear-4">
-            <img src="./../../assets/Gallery/img-6.png" alt="">
-        </div>
-        <div class="bear bear-5">
-            <img src="./../../assets/Gallery/img-7.png" alt="">
-        </div>
-        <div class="bear bear-6">
-            <img src="./../../assets/Discos/Alton Ellis .jpeg" alt="">
-        </div>
-        <div class="bear bear-7">
-            <img src="./../../assets/Gallery/img-1.png" alt="">
-        </div>
-        <div class="bear bear-8">
-            <img src="./../../assets/Gallery/img-2.png" alt="">
-        </div>
-        <div class="bear bear-9">
-            <img src="./../../assets/Gallery/jamaica-memories.jpeg" alt="">
-        </div>
-        <div class="bear bear-10">
-          <img src="./../../assets/Gallery/img-5.png" alt="">
-        </div>
-      </div>
+    </div>
+
+</div>
+
+      </section>
 
       <footer class="text-dark pt-4 pb-4">
         <nav class="navbar navbar-expand-lg">
@@ -117,13 +202,8 @@
             </div>
           </div>
         </nav>
-    
-    
-    
-    
-    
-    
-        
       </footer>
+      <script src="./../../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="./../../../node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
 </body>
 </html>
